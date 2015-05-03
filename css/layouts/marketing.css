@@ -103,12 +103,14 @@ a.pure-button-primary {
     border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
+    height: 85px;
 }
 
 .home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
-    font-size: 120%;
+    width:220px;
+}
+.home-menu .pure-menu-heading img{
+    width:220px;
 }
 
 .home-menu .pure-menu-selected a {
@@ -125,6 +127,9 @@ a.pure-button-primary {
     color: #AECFE5;
 }
 
+ul.pure-menu-list{
+    top:-40px;
+}
 
 /*
  * -- SPLASH STYLES --
