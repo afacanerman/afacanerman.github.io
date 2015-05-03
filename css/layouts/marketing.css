@@ -137,12 +137,14 @@ ul.pure-menu-list{
  */
 
 .splash-container {
-    background: #1f8dd6;
-    z-index: 1;
+    background-image: url(../../img/common/motto.png);
+    background-image: z-index: 1;
+    background-color: #23241f;
+    background-repeat: no-repeat;
+    background-position: center center;
     overflow: hidden;
-    /* The following styles are required for the "scroll-over" effect */
     width: 100%;
-    height: 88%;
+    height: 65%;
     top: 0;
     left: 0;
     position: fixed !important;
@@ -185,7 +187,7 @@ ul.pure-menu-list{
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
-    top: 87%;
+    top: 66%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
@@ -258,8 +260,9 @@ ul.pure-menu-list{
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
-        width: 50%;
+        width: 33%;
         height: 50%;
+        top: 40%;
     }
 
     .splash-head {
