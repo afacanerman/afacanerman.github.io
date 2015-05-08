@@ -141,7 +141,7 @@ ul.pure-menu-list{
     background-image: z-index: 1;
     background-color: #23241f;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom;
     overflow: hidden;
     width: 100%;
     height: 65%;
@@ -156,7 +156,7 @@ ul.pure-menu-list{
     height: 50%;
     margin: auto;
     position: absolute;
-    top: 100px; left: 0; bottom: 0; right: 0;
+    top: 70%; left: 0; bottom: 0; right: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -166,8 +166,8 @@ ul.pure-menu-list{
     font-size: 20px;
     font-weight: bold;
     color: white;
-    border: 3px solid white;
-    padding: 1em 1.6em;
+    /*border: 3px solid white;*/
+    padding: 4em 1.6em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
@@ -200,7 +200,7 @@ ul.pure-menu-list{
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    margin: 4em 0 1em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -260,13 +260,13 @@ ul.pure-menu-list{
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
-        width: 33%;
-        height: 50%;
+        /*width: 33%;*/
+        height: 35%;
         top: 40%;
     }
 
     .splash-head {
-        font-size: 250%;
+        font-size: 180%;
     }
 
 
@@ -285,6 +285,6 @@ ul.pure-menu-list{
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
-        font-size: 300%;
+        font-size: 210%;
     }
 }
